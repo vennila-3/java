@@ -46,3 +46,24 @@ interpreted:
 multi thread:
       when multiple threads run simultaneously is called multithreading. 
 
+
+
+     ----------------------------           JDK,JVM,JRE          -------------------------------------
+
+JVM:
+      It is a specification that provides a runtime environment in which Java bytecode can be executed.
+      It can also run those programs which are written in other languages and compiled to Java bytecode.
+
+    Loads code
+    Verifies code
+   Executes code
+   Provides runtime environment
+
+JRE:
+     (Java Runtime Environment) is an installation package that provides an environment to only run(not develop) the java program(or application)onto your machine. 
+      JRE is only used by those who only want to run Java programs that are end-users of your system.
+
+JDK:
+   (Java Development Kit) is a Kit that provides the environment to develop and execute(run) the Java program. JDK is a kit(or package) that includes two things
+   Development Tools(to provide an environment to develop your java programs)
+   JRE (to execute your java program).
