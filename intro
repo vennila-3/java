@@ -1,0 +1,48 @@
+   ////////////////-----------------         JAVA             -----------------------------------///////////
+
+What is java?
+
+     Java is a most popular, object-oriented, widely used programming language and platform 
+     that is utilized for Android development, web development, artificial intelligence, cloud applications, and much more.
+
+why java?
+
+     simple
+     oops
+     platform indepentent
+     portable
+     secure
+     robust
+     interpreted
+     Multi thread
+
+simple:
+      java is a simple programming language and easy to understand because it does not contain complexities that exist in prior programming languages
+
+oops:
+     Java is an Object Oriented Programming Language, which means in Java everything is written in terms of classes and objects. 
+     The object is nothing but a real-world entity that can represent any person, place, or thing and can be distinguished from others. 
+    Every object near us has some state and behaviour associated with it.
+
+platform independent:
+     Java allows programmers to write their program on any machine with any configuration and to execute it on any other machine having different configurations
+     Java source code is compiled to bytecode and this bytecode is not bound to any platform. In fact, this bytecode is only understandable by the Java Virtual Machine which is installed in our system
+
+portable:
+     WORA (Write Once Run Anywhere) concept and platform-independent feature make Java portable.
+
+secure:
+      JVM is smart enough to distinguish viruses from normal programs. If a virus is found in a bytecode file, JVM will throw an exception and abort execution.
+
+robust:
+     There are 2 reasons behind this.
+    first, it has a most important and helpful feature called Exception Handling.
+    second memory management feature
+
+interpreted:
+     Java programs are compiled to generate bytecode files then JVM interprets the bytecode file during execution.
+     Along with this JVM also uses a JIT compiler (it increases the speed of execution).
+
+multi thread:
+      when multiple threads run simultaneously is called multithreading. 
+
