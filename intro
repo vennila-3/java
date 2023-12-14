@@ -108,4 +108,10 @@ JDK:
       Most Popular JDKs:
          Oracle JDK: the most popular JDK and the main distributor of Java11,
          OpenJDK: Ready for use: JDK 15, JDK 14, and JMC,
-         Azul Systems Zing: efficient and low latency JDK for Linux os,
+         Azul Systems Zing: efficient and low latency JDK for Linux os.
+
+
+
+JIT:
+    The JIT or Just-In-Time compiler is an essential part of the JRE (Java Runtime Environment) and jvm, 
+    that is responsible for performance optimization of java based applications during run time.
