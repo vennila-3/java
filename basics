@@ -10,7 +10,7 @@ DATA TYPES:
          Data types in Java are of different sizes and values that can be stored in the variable that is made as per convenience and circumstances to cover up all test cases.
          Primitive Data Type: such as boolean, char, int, short, byte, long, float, and double
          Non-Primitive Data Type or Object Data type 
-      PRIMITIVE DATA TYPE:
+  PRIMITIVE DATA TYPE:
           Primitive data are only single values and have no special capabilities.
           There are 8 primitive data types. They are depicted below in tabular format below as follows:
                boolean --- 1 bit default false
@@ -22,5 +22,14 @@ DATA TYPES:
                float -- 4 byte
                double  -- 8 byte
                
-               
-
+             why char 2 byte in java
+                    represent all ASCII characters 8 bits is enough.
+                    But Java uses the Unicode system not the ASCII code System and to 
+                   represent the Unicode system 8 bits is not enough to represent all characters so Java uses 2 bytes for characters.
+                   Unicode defines a fully international character set that can represent most of the world’s written languages.
+    
+   NON PRIMITIVE DATA TYPE
+          Non-Primitive Data Type or Reference Data Types
+          The Reference Data Types will contain a memory address of variable values because
+          the reference types won’t store the variable value directly in memory.
+          They are strings, objects, arrays, etc. 
