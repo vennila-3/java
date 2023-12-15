@@ -13,14 +13,14 @@ DATA TYPES:
       PRIMITIVE DATA TYPE:
           Primitive data are only single values and have no special capabilities.
           There are 8 primitive data types. They are depicted below in tabular format below as follows:
-               boolean --- 
-               byte
-               char
-               short
-               long
-               int
-               float
-               double
+               boolean --- 1 bit default false
+               byte -- 1 byte --8 bit
+               char  --2 byte
+               short -- 2 byte
+               long --8 byte
+               int --4 byte
+               float -- 4 byte
+               double  -- 8 byte
                
                
 
