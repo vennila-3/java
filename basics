@@ -1,0 +1,26 @@
+Hello world
+Data types
+identifiers
+operators
+variable
+scope of the variable
+
+
+DATA TYPES:
+         Data types in Java are of different sizes and values that can be stored in the variable that is made as per convenience and circumstances to cover up all test cases.
+         Primitive Data Type: such as boolean, char, int, short, byte, long, float, and double
+         Non-Primitive Data Type or Object Data type 
+      PRIMITIVE DATA TYPE:
+          Primitive data are only single values and have no special capabilities.
+          There are 8 primitive data types. They are depicted below in tabular format below as follows:
+               boolean --- 
+               byte
+               char
+               short
+               long
+               int
+               float
+               double
+               
+               
+
