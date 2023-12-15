@@ -115,3 +115,7 @@ JDK:
 JIT:
     The JIT or Just-In-Time compiler is an essential part of the JRE (Java Runtime Environment) and jvm, 
     that is responsible for performance optimization of java based applications during run time.
+
+
+
+
