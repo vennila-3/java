@@ -47,3 +47,15 @@ RESERVER KEYWORD:
      case	enum	Interface      Short	         switch
      Catch	Extends	instanceof     return	         void
      Char	Final	Int	      synchronized	volatile
+
+
+OPERATORS:
+      Arithmetic Operators
+      Unary Operators
+      Assignment Operator
+      Relational Operators
+      Logical Operators
+     Ternary Operator
+     Bitwise Operators
+    Shift Operators
+    instance of operator
