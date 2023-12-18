@@ -1,0 +1,80 @@
+input /output:
+        Methods to Take Input in Java
+        There are two ways by which we can take Java input from the user or from a file
+                BufferedReader Class --- Using BufferedReader Class for String Input In Java
+                Scanner Class
+BUFFERREADER:
+        It is a simple class that is used to read a sequence of characters.
+        It has a simple function that reads a character another read which reads, an array of characters, and a readLine() function which reads a line.
+
+            ex:
+// Java Program for taking user
+// input using BufferedReader Class
+import java.io.*;
+
+class GFG {
+
+	// Main Method
+	public static void main(String[] args)
+		throws IOException
+	{
+		// Creating BufferedReader Object
+		// InputStreamReader converts bytes to
+		// stream of character
+		BufferedReader bfn = new BufferedReader(
+			new InputStreamReader(System.in));
+
+		// String reading internally
+		String str = bfn.readLine();
+
+		// Integer reading internally
+		int it = Integer.parseInt(bfn.readLine());
+
+		// Printing String
+		System.out.println("Entered String : " + str);
+
+		// Printing Integer
+		System.out.println("Entered Integer : " + it);
+	}
+}
+
+
+2. Using Scanner Class for Taking Input in Java
+        It is an advanced version of BufferedReader which was added in later versions of Java.
+        The scanner can read formatted input. It has different functions for different types of data types. 
+        The scanner is much easier to read as we don’t have to write throws as there is no exception thrown by it.
+        It was added in later versions of Java
+        It contains predefined functions to read an Integer, Character, and other data types as well.
+
+
+
+  -------------------///  FLOW CONTROL   ///////////--------
+  control flow
+
+if    Time Complexity: O(1)    ,Auxiliary Space : O(1)
+if-else     Time Complexity: O(1)    ,Auxiliary Space : O(1)
+nested-if    Time Complexity: O(1)    ,Auxiliary Space : O(1)
+if-else-if     Time Complexity: O(1)    ,Auxiliary Space : O(1)
+switch-case
+jump – break, continue, return
+  
+LOOPING:
+  for
+  while
+  do while
+  Java For-Each Loop
+Enhanced For Loop or Java For-Each loop in Java is another version of for loop introduced in Java 5
+
+           OPERATOR
+  Arithmetic Operators
+Unary Operators
+Assignment Operator
+Relational Operators
+Logical Operators
+Ternary Operator
+Bitwise Operators
+Shift Operators
+
+
+
+      
