@@ -1,0 +1,41 @@
+String :
+      a sequence of characters.
+      String are immutable which means a constant and cannot be changed once created.
+      In Java, string is basically an object that represents sequence of char values.
+      An array of characters works same as Java string.
+      
+  Ways of Creating a String
+  
+      There are two ways to create a string in Java: 
+       String Literal          String a="abc";
+       Using new Keyword       String a=new String("abc");
+
+
+  why string immutable in java?
+       String literals to occupy a large area of memory, which can even cause redundancy. 
+       So, in order to make Java more efficient, the JVM sets aside a special area of memory called the “String constant pool”.
+       When the compiler sees a String literal, it looks for the String in the pool. If a match is found, the reference to the new literal is directed to the existing String and no new String object is created.
+       The existing String simply has one more reference. Here comes the point of making String objects immutable:
+    advantages:
+       The String pool cannot be possible if String is not immutable in Java.
+       A lot of heap space is saved by JRE. The same string variable can be referred to by more than one string variable in the pool.
+       String interning can also not be possible if the String would not be immutable.
+
+  STRING BUFFER:
+         StringBuffer is a class in Java that represents a mutable sequence of characters.
+         It provides an alternative to the immutable String class, allowing you to modify the contents of a string without creating a new object every time.
+            append() method is used to add characters, strings, or other objects to the end of the buffer.
+            insert() method is used to insert characters, strings, or other objects at a specified position in the buffer.
+            delete() method is used to remove characters from the buffer.
+            reverse()     
+STRING  BUILDER: 
+            The function of StringBuilder is very much similar to the StringBuffer class,
+            as both of them provide an alternative to String Class by making a mutable sequence of characters.
+            If such synchronization is required then it is recommended that StringBuffer be used. 
+            String Builder is not thread-safe and high in performance compared to String buffer
+
+
+
+          ------------------------- ARRAY-------------------------------
+          
+          
