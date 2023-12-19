@@ -112,3 +112,18 @@ Inner class:
      It’s used to logically arrange classes and achieve encapsulation. The outer class members (including private) can be accessed by the inner class. 
      Types:  Nested Inner class , Anonymous inner classes , Static nested classes , Method Local inner classes.
       
+
+
+--------------------------------------  OBJECT --------------------------------
+
+An object in Java is a basic unit of Object-Oriented Programming and represents real-life entities.
+It consist state,behaviour,identity.
+State: It is represented by attributes of an object. It also reflects the properties of an object.
+Behavior: It is represented by the methods of an object. It also reflects the response of an object with other objects.
+Identity: It gives a unique name to an object and enables one object to interact with other objects.
+
+example:
+    pen
+  state: colour of pen
+  behaviour: writing function
+  identity:name is unique
