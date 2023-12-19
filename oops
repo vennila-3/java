@@ -1,0 +1,114 @@
+Object Oriented Programming & system:
+              Object-oriented programming aims to implement real-world entities like inheritance, hiding, polymorphism etc. in programming.
+              The main aim of OOP is to bind together the data and the functions that operate on them so that no other part of the code can access this data except that function. 
+  
+OOPS concepts are as follows: 
+      Class
+      Object 
+      Method and method passing
+      Pillars of OOPs
+      Abstraction
+      Encapsulation
+      Inheritance
+      Polymorphism
+      Compile-time polymorphism
+      Runtime polymorphism
+
+what is oops?
+      Object-oriented programming is a core of Java Programming, which is used for designing a program using classes and objects. 
+
+why we use?
+       OOps in java is to 
+       improve code
+      readability and
+      reusability by defining a Java program efficiently.
+
+purely Object-Oriented Language? 
+               Pure Object Oriented Language or Complete Object Oriented Language :
+               Fully Object Oriented Language which supports or have features which treats everything inside program as objects.
+               It doesn’t support primitive datatype(like int, char, float, bool, etc.).
+               Smalltalk is a “pure” object-oriented programming language.
+
+Why Java is not a Pure Object Oriented Language?
+                it support primitive data types likw (int,float,double,char,etc..)
+                static keyword: 
+                     When we declares a class as static then it can be used without the use of an object in Java. 
+                     If we are using static function or static variable then we can’t call that function or variable by using dot(.) or class object defying object oriented feature.
+                Wrapper Class: Wrapper class provides the mechanism to convert primitive into object and object into primitive. 
+
+
+------------------------------------------------------------CLASS----------------------------------------------------------------------------------------------
+
+        A class is a user-defined blueprint or prototype from which objects are created. 
+        It represents the set of properties or methods that are common to all objects of one type.
+        Using classes, you can create multiple objects with the same behavior instead of writing their code multiple times.
+        REALTIME EXAMPLE : Student is a class                    a particular student named Ravi is an object.
+ 
+                                   Properties of Java Classes
+        Class is not a real-world entity. It is just a template or blueprint or prototype from which objects are created.
+        Class does not occupy memory.
+        Class is a group of variables of different data types and a group of methods.
+        A Class in Java can contain: Data member ,Method ,Constructor , Nested Class , Interface.
+
+                               DECLARATION
+                access_modifier class <class_name>
+                 {  
+                data member;  
+                method;  
+               constructor;
+               nested class;
+              interface;
+               }
+
+                         TYPES OF CLASS
+                Final Class
+                Static Class
+                Abstract Class
+                Concrete Class
+                POJO Class
+                Singleton Class
+                Inner Class
+
+Finall class:(immutable)
+          When a variable, function, or class is declared final, its value persists throughout the program.
+          Declaring a method with the final keyword indicates that the method cannot be overridden by subclasses.
+         That is a class that is marked final cannot be subclasses. This is very useful when creating immutable classes such as  String classes.
+
+Static class :
+     static keyword is primarily used for memory management. 
+     static class in Java is a class that can only contain static methods, variables, and nested classes.
+     We cannot create objects of a static class and can only access its members using the class name itself.
+    outer classs can be static inner class should not static.
+
+Abstract class: (hiding)
+        A class that has zero or more abstract methods and is specified with the abstract keyword is called an abstract class.
+        We must rigorously extend the abstract classes to a concrete class in order to use them because they are incomplete classes. 
+       Constructors and static methods can also be included.  
+
+Concrete class:(normal class)
+       A concrete class in java is a class that has all its methods implemented. For any class to be classified as concrete, it cannot have any unimplemented methods.
+       Concrete classes can extend abstract class in Java or implement interfaces, but they must implement all the methods of the abstract class or interface they inherit.
+       We can create an object of concrete class using the new keyword.
+
+POJO Class:
+       “Plain Old Java Object” is an abbreviation for “Plain Old Java Object.” 
+       A POJO class has only private variables with setter and getter methods to access them.
+        
+      POJO class properties:
+          When writing a POJO class, public setter and getter methods are required.
+          Private variables should be used for all instance variables.
+          It should not extend classes that have already been defined.
+          It should not implement interfaces that have been pre-defined.
+          There should be no pre-defined annotations.
+
+Singleton Class:
+     A singleton class is one that has just one object at any one moment.
+    Even yet, if we try to create an instance again, the newly created instance refers to the previous one.
+    Any modification we make to the class through any instance impacts the variables in that specific instance as well.
+
+Inner class:
+     
+     We can define a class within a class in Java, and these classes are referred to as nested classes. 
+     It’s used to logically arrange classes and achieve encapsulation. The outer class members (including private) can be accessed by the inner class. 
+     Types:  Nested Inner class , Anonymous inner classes , Static nested classes , Method Local inner classes.
+      
