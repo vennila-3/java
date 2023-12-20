@@ -1,3 +1,76 @@
-Method:
+
+Object-oriented programming generally referred to as OOPS is the backbone of java
+
+-----------------------------------   Method  ------------------------------------------------
     The method in Java or Methods of Java is a collection of statements that perform some specific task and return the result to the caller. 
-    A Java method can perform some specific task without returning anything
+    A Java method can perform some specific task without returning anything. 
+    A method is like a function used to expose the behavior of an object.
+    It is a set of codes that perform a particular task.
+
+Advantage of Method
+   Code Reusability
+   Code Optimization 
+Types of method:
+   predefine method
+   uder define method
+
+-----------------------------------------------   ACCESS MODIFIERS  --------------------------------------------------
+Access modifiers help to restrict the scope of a class, constructor, variable, method, or data member. 
+It provides security, accessibility, etc to the user depending upon the access modifier used with the element.
+
+              Types of Access Modifiers in Java
+                  Default – No keyword required
+                  Private
+                  Protected
+                  Public
+DEFAULT:
+        having default access modifiers are accessible only within the same package.
+          // Java program to illustrate default modifier 
+          package p1; 
+        // Class Geek is having Default access modifier 
+        class Geek 
+         { 
+	    void display() 
+	   { 
+		System.out.println("Hello World!"); 
+	   } 
+       }
+
+PRIVATE:
+  The methods or data members declared as private are accessible only within the class in which they are declared.
+  Any other class of the same package will not be able to access these members.
+***  Top-level classes or interfaces can not be declared as private because private means “only visible within the enclosing class”.
+  protected means “only visible within the enclosing class and any subclasses”.
+
+PROTECTED
+    The methods or data members declared as protected are accessible within the same package or subclasses in different packages.
+    In this example, we will create two packages p1 and p2. Class A in p1 is made public, to access it in p2. The method display in class A
+    is protected and class B is inherited from class A and this protected method is then accessed by creating an object of class B.
+
+Public Access modifier
+     The public access modifier has the widest scope among all other access modifiers.
+     Classes, methods, or data members that are declared as public are accessible from everywhere in the program.
+    There is no restriction on the scope of public data members.
+
+------------------------------------  CONSTRUCTOR  ----------------------------------------------
+ A constructor in Java is a special method that is used to initialize objects.
+ The constructor is called when an object of a class is created. 
+ It can be used to set initial values for object attributes.
+     TYPES:
+Default Constructor  -
+        Default constructor provides the default values to the object like 0, null, etc. depending on the type.
+        A constructor that has no parameters is known as default the constructor. 
+        A default constructor is invisible. And if we write a constructor with no arguments, the compiler does not create a default constructor.
+Parameterized Constructor  -
+         If we want to initialize fields of the class with our own values, then use a parameterized constructor.
+Copy Constructor
+         copy constructor is passed with another object which copies the data available from the passed object to the newly created object.
+
+------------------------------------------ PILLERS ---------------------------------------
+
+These concepts aim to implement real-world entities in programs.
+
+Abstraction
+Encapsulation
+Inheritance
+Polymorphism.
