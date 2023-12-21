@@ -93,6 +93,15 @@ abstract keyword for declaring top-level classes (Outer class) as well as inner 
 ------------------------------- Interface   ------------------------
  An interface in Java is a blueprint of a behavior. specify the behavior of a class
 It has static constants and abstract methods.
+The interface in Java is a mechanism to achieve abstraction.  it have only abstract method.
+It is used to achieve abstraction and multiple inheritances in Java using Interface. A class can implement more than one interface.
+Java Interface also represents the IS-A relationship.
 
+Advantages of Interfaces in Java
+Without bothering about the implementation part, we can achieve the security of the implementation.
+In Java, multiple inheritances are not allowed, however, you can use an interface to make use of it as you can implement more than one interface
 
+How many Types of interface in Java?
+Functional Interface
+Marker interface
 
