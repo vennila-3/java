@@ -74,3 +74,25 @@ Abstraction
 Encapsulation
 Inheritance
 Polymorphism.
+
+
+------------------------------- abstraction ------------------------------
+Abstraction in Java is the process in which we only show essential details/functionality to the user. 
+The non-essential implementation details are not displayed to the user. 
+
+achieved by
+    interfaces
+    abstract classes. We can achieve 100% abstraction using interfaces.
+
+----------------            abstract class                 ----------------------- 
+Abstract classes cannot be instantiated (object)
+Abstract methods do not have a body
+*)Abstract classes can have both abstract and concrete method
+abstract keyword for declaring top-level classes (Outer class) as well as inner classes as abstract
+
+------------------------------- Interface   ------------------------
+ An interface in Java is a blueprint of a behavior. specify the behavior of a class
+It has static constants and abstract methods.
+
+
+
