@@ -79,18 +79,19 @@ Polymorphism.
 ------------------------------- abstraction ------------------------------
 Abstraction in Java is the process in which we only show essential details/functionality to the user. 
 The non-essential implementation details are not displayed to the user. 
+Abstraction Is hiding the internal implementation and just highlight the set of services
 
 achieved by
     interfaces
     abstract classes. We can achieve 100% abstraction using interfaces.
 
-----------------            abstract class                 ----------------------- 
+               ----------------            abstract class                 ----------------------- 
 Abstract classes cannot be instantiated (object)
 Abstract methods do not have a body
 *)Abstract classes can have both abstract and concrete method
 abstract keyword for declaring top-level classes (Outer class) as well as inner classes as abstract
 
-------------------------------- Interface   ------------------------
+        ------------------------------- Interface   ------------------------
  An interface in Java is a blueprint of a behavior. specify the behavior of a class
 It has static constants and abstract methods.
 The interface in Java is a mechanism to achieve abstraction.  it have only abstract method.
@@ -105,3 +106,6 @@ How many Types of interface in Java?
 Functional Interface
 Marker interface
 
+
+-------------------------------------------  ENCAPSULATION  ---------------------------------------------------
+ 
