@@ -109,3 +109,32 @@ Marker interface
 
 -------------------------------------------  ENCAPSULATION  ---------------------------------------------------
  
+Encapsulation is defined as the wrapping up of data under a single unit.
+It is the mechanism that binds together code and the data it manipulates.
+Java Encapsulation is a way of hiding the implementation details of a class from outside access and only exposing a public interface that can be used to interact with the class.
+Encapsulation is achieved by
+   declaring the instance variables of a class as private, which means they can only be accessed within the class.
+   to allow outside access to the instance variables, public methods called getters and setters are defined, which are used to retrieve and modify the values of the instance variables, respectively.
+
+ADVANTAGE:
+    data hiding
+    Increase flexibility
+    Reusability
+Disadvantages of Encapsulation in Java
+      Can lead to increased complexity, especially if not used properly.
+      Can make it more difficult to understand how the system works.
+      May limit the flexibility of the implementation.
+
+    ------------------ ABSTRACT VS ENCAPSULATION  -----------------------------------
+abstraction:
+         Abstraction focus is on “what” should be done.	
+         The objects that help to perform abstraction are encapsulated.	
+encapsulation:
+       Encapsulation focus is on “How” it should be done.
+       Whereas the objects that result in encapsulation need not be abstracted.
+abstraction:
+       We can implement abstraction using abstract class and interfaces.
+       Abstraction is the method of hiding the unwanted information.	
+encapsulation:
+      encapsulation can be implemented using by access modifier i.e. private, protected and public.
+      encapsulation is a method to hide the data in a single entity or unit along with a method to protect information from outside
