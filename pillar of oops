@@ -138,3 +138,32 @@ abstraction:
 encapsulation:
       encapsulation can be implemented using by access modifier i.e. private, protected and public.
       encapsulation is a method to hide the data in a single entity or unit along with a method to protect information from outside
+
+
+
+
+------------------------------------  INHERITANCE  -------------------------------------------
+Inheritance in Java is a mechanism in which one object acquires all the properties and behaviors of a parent object.
+IS-A relationship which is also known as a parent-child relationship.
+
+why do we need inheritance:
+    code reusability
+    method overloading
+    abstraction
+
+TYPES:
+      Single Inheritance -When a class inherits another class, it is known as a single inheritance.
+      Multilevel Inheritance   -  chain of inheritance  (grandfather -> father -> son)
+      Hierarchical Inheritance   - When two or more classes inherits a single class, all have one parent class
+      Multiple Inheritance   - not support but we can acheive using interface
+      Hybrid Inheritance -
+
+             Association, Composition and Aggregation in Java.
+
+Association is a relation between two separate classes which establishes through their Objects.
+Association can be one-to-one, one-to-many, many-to-one, many-to-many.
+
+             forms of association.
+Composition 
+Aggregation  
+
