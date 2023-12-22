@@ -171,11 +171,10 @@ Aggregation
 If a class have an entity reference 
 it is used for code reusability
 
-Next →← Prev
 Aggregation in Java
 If a class have an entity reference, it is known as Aggregation. Aggregation represents HAS-A relationship.
-
-Consider a situation, Employee object contains many informations such as id, name, emailId etc. It contains one more object named address, which contains its own informations such as city, state, country, zipcode etc. as given below.
+Aggregation is a specialized form of association between two or more objects in which each object has its own life cycle but there exists an ownership as well.
+(Association in Java is a connection or relation between two separate classes that are set up through their objects.)
 
 class Employee{  
 int id;  
@@ -204,3 +203,12 @@ class Circle{
 
 
 
+-------------------------  POLYMORPHISM ------------------------------------
+
+Polymorphism allows us to perform a single action in different ways.
+In other words, polymorphism allows you to define one interface and have multiple implementations. 
+The word “poly” means many and “morphs” means forms, So it means many forms.
+
+Types of Java Polymorphism
+ Compile-time Polymorphism (static polymorphism)  method overloading 
+ Runtime Polymorphism   (Dynamic polymorphism)  method overriding
