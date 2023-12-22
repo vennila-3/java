@@ -165,5 +165,42 @@ Association can be one-to-one, one-to-many, many-to-one, many-to-many.
 
              forms of association.
 Composition 
-Aggregation  
+Aggregation 
+
+               AGGREGATION
+If a class have an entity reference 
+it is used for code reusability
+
+Next →← Prev
+Aggregation in Java
+If a class have an entity reference, it is known as Aggregation. Aggregation represents HAS-A relationship.
+
+Consider a situation, Employee object contains many informations such as id, name, emailId etc. It contains one more object named address, which contains its own informations such as city, state, country, zipcode etc. as given below.
+
+class Employee{  
+int id;  
+String name;  
+Address address;//Address is a class  
+...  
+}  
+In such case, Employee has an entity reference address, so relationship is Employee HAS-A address.
+
+Why use Aggregation?
+For Code Reusability.
+
+
+class Operation{  
+ int square(int n){  
+  return n*n;  
+ }  
+}  
+  
+class Circle{  
+ Operation op;//aggregation  
+ double pi=3.14;  
+    
+ double area(int radius){  
+   op=new Operation();    
+
+
 
