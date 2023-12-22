@@ -214,5 +214,19 @@ Types of Java Polymorphism
  Runtime Polymorphism   (Dynamic polymorphism)  method overriding
 
 
-Compile time polymorphism:( Method Overloading )
-When there are multiple functions with the same name but different parameters then these functions are said to be overloaded
+COMPILE TIME POLYMORPHISM:( Method Overloading )
+      we can overload java main() method
+      When there are multiple functions with the same name but different parameters then these functions are said to be overloaded.
+      If we have to perform only one operation, having same name of the methods increases the readability of the program.
+     example:  Calculating area
+
+      Different ways to overload the method
+        By changing number of arguments
+        By changing the data type
+
+RUNTIME POLYMORPHISM: (Method - overriding )
+       If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
+       REAL time example: bank interest
+
+Can we override static method?
+
