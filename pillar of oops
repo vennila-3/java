@@ -212,3 +212,7 @@ The word “poly” means many and “morphs” means forms, So it means many fo
 Types of Java Polymorphism
  Compile-time Polymorphism (static polymorphism)  method overloading 
  Runtime Polymorphism   (Dynamic polymorphism)  method overriding
+
+
+Compile time polymorphism:( Method Overloading )
+When there are multiple functions with the same name but different parameters then these functions are said to be overloaded
