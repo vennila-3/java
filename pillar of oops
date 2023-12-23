@@ -66,6 +66,9 @@ Parameterized Constructor  -
 Copy Constructor
          copy constructor is passed with another object which copies the data available from the passed object to the newly created object.
 
+
+Can we have private constructors ?
+
 ------------------------------------------ PILLERS ---------------------------------------
 
 These concepts aim to implement real-world entities in programs.
@@ -254,4 +257,15 @@ We cannot declare a top-level class with a static modifier .
 
 
 ------------------------------------  THIS KEYWORD  ---------------------------------------------
-‘this’ is a reference variable that refers to the current object
+‘this’ is a reference variable that refers to the current object.
+
+                                   To use this 
+Using the ‘this’ keyword to refer to current class instance variables.
+Using this() to invoke the current class constructor
+Using ‘this’ keyword to return the current class instance 
+Using ‘this’ keyword as the method parameter
+Using ‘this’ keyword to invoke the current class method 
+Using ‘this’ keyword as an argument in the constructor call.
+
+------------------------------- SUPER KEYWORD  -----------------------------
+
