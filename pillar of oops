@@ -1,4 +1,5 @@
 
+
 Object-oriented programming generally referred to as OOPS is the backbone of java
 
 -----------------------------------   Method  ------------------------------------------------
@@ -68,7 +69,10 @@ Copy Constructor
 
 
 Can we have private constructors ?
-
+   There are various scenarios where we can use private constructors.
+      Internal Constructor chaining
+      Singleton class design pattern
+    
 ------------------------------------------ PILLERS ---------------------------------------
 
 These concepts aim to implement real-world entities in programs.
