@@ -229,4 +229,29 @@ RUNTIME POLYMORPHISM: (Method - overriding )
        REAL time example: bank interest
 
 Can we override static method?
+         NO
+        we can't override static methods since method overriding relies on dynamic binding at runtime,
+        but static methods are bonded at compile time with static binding. As a result, we are unable to override static methods.
 
+ -------------------------------- STATIC keyword ------------------------
+It is non access modifier .(The static modifier makes a member (variables or methods) of a class independent of the objects of the class and is used when we are defining properties that are common to all objects in the class.)
+The static keyword in Java is mainly used for memory management.
+users can apply static keywords with variables, methods, blocks, and nested classes. 
+The static variable can be used to refer to the common property of all objects 
+
+
+Shared memory allocation:
+        Static variables and methods are allocated memory space only once during the execution of the program. 
+        This memory space is shared among all instances of the class, which makes static members useful for maintaining global state or shared functionality.
+Accessible without object instantiation: 
+         Static members can be accessed without the need to create an instance of the class.
+         This makes them useful for providing utility functions and constants that can be used across the entire program
+Cannot access non-static members: 
+        Static methods and variables cannot access non-static members of a class, 
+        as they are not associated with any particular instance of the cl ass.
+Can be overloaded, but not overridden
+We cannot declare a top-level class with a static modifier .
+
+
+------------------------------------  THIS KEYWORD  ---------------------------------------------
+‘this’ is a reference variable that refers to the current object
