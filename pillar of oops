@@ -18,12 +18,25 @@ Types of method:
 -----------------------------------------------   ACCESS MODIFIERS  --------------------------------------------------
 Access modifiers help to restrict the scope of a class, constructor, variable, method, or data member. 
 It provides security, accessibility, etc to the user depending upon the access modifier used with the element.
+  
+TYPES:
+   Access and non access modifiers
 
               Types of Access Modifiers in Java
                   Default – No keyword required
                   Private
                   Protected
                   Public
+
+            Types of Non Acccess modifiers
+               static
+               final
+               abstract
+               synchronized
+              transient
+              volatile
+              native
+
 DEFAULT:
         having default access modifiers are accessible only within the same package.
           // Java program to illustrate default modifier 
@@ -290,3 +303,9 @@ Java final class
 
 Can we declare a constructor final?
    No, because constructor is never inherited.  
+
+
+---------------------  enum  ----------------------
+A Java enumeration is a class type
+we don’t need to instantiate an enum using new, it has the same capabilities as other classes.
+
