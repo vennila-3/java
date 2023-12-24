@@ -9,10 +9,30 @@ Errors
           represent irrecoverable conditions 
           such as Java virtual machine (JVM) running out of memory, memory leaks, stack overflow errors, library incompatibility, etc
 
-         Major reasons why an exception Occurs
-Invalid user input
-Device failure
-Loss of network connection
-Physical limitations (out-of-disk memory)
-Code errors
-Opening an unavailable file
+Major reasons why an exception Occurs
+        Invalid user input
+        Device failure
+        Loss of network connection
+        Physical limitations (out-of-disk memory)
+        Code errors
+        Opening an unavailable file
+
+Advantage:
+     to maintain normal flow of the application.
+
+                     Exception Hierarchy
+                          THROWABLE
+               exception                     Error
+        checked exception                    Stack overflow
+        unchecked exception                  Outof memory
+
+Types of exception:
+          user-define  Exception
+          Build-in Exception  -----------> checked exception  unchecked Exception
+
+Checked Exceptions: 
+        Checked exceptions are called compile-time exceptions because
+        these exceptions are checked at compile-time by the compiler.
+Unchecked Exceptions:
+         The unchecked exceptions are just opposite to the checked exceptions.
+         The compiler will not check these exceptions at compile time.
