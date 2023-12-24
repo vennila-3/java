@@ -1,0 +1,18 @@
+Exception Handling in Java is one of the effective means to handle runtime errors 
+so that the regular flow of the application can be preserved. Java Exception Handling is a mechanism 
+to handle runtime errors such as ClassNotFoundException, IOException, SQLException, RemoteException, etc.
+
+Exception in Java:
+       Exception is an abnormal condition.
+       Exception is an unwanted or unexpected event, which occurs during the execution of a program.
+Errors
+          represent irrecoverable conditions 
+          such as Java virtual machine (JVM) running out of memory, memory leaks, stack overflow errors, library incompatibility, etc
+
+         Major reasons why an exception Occurs
+Invalid user input
+Device failure
+Loss of network connection
+Physical limitations (out-of-disk memory)
+Code errors
+Opening an unavailable file
